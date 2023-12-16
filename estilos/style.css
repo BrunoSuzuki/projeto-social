@@ -42,3 +42,26 @@ iframe#tela {
     width: 269px;
     
 }
+
+section#redes-sociais {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+section#redes-sociais > a > img{
+    width: 50px;
+    border-radius: 50%; 
+    display: block;   
+    margin: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: scale(1.5) rotate(10deg);/*realiza um crescimento dos botões e acrescido de uma rotação de 10 graus*/
+    transition: transform 0.3s ease; /*trata-se da duração do efeito acima ser feito ao passar de um botão ao outro usando a função ease para tornar a transição suave.*/
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.623);
+}
